@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Solar System</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet" />
+</head>
+
+<body>
+  <section id="sectionone" class="screen">
+    <div id="stars"></div>
+    <div id="background">
+      <span class="material-icons-outlined" id="toolTip">
+        info
+      </span>
+      <span id="imageInfo"></span>
+    </div>
+    <span id="explore">Explore Solar System.
+      <span id="startTour">Start Tour > </span></span>
+  </section>
+
+  <script>
+    function openWebsite(website) {
+      window.open(`https://${website}`, '_blank');
+    }
+  </script>
+
+  <section id="sectiontwo" class="screen">
+    <div id="animate"></div>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="slide-number"></div>
+          <div class="slide-detail">
+            <p>
+              Sun is a yellow dwarf star, a hot ball of glowing gases at the heart of the solar system. It's gravity
+              holds the solar system together, keeping everything - from the biggest planets to the smallest debris - in
+              its orbit.
+              The Sun was formed about 4.5 billion years ago. Scientists predict the Sun will last another 6.5 billion
+              years before it shrinks down to a white dwarf.
+            <ul>
+              <li><span style="opacity: 0.8">Orbits: </span>Galactic Center</li>
+              <li><span style="opacity: 0.8">Radius: </span>0.695 million km</li>
+              <li><span style="opacity: 0.8">Surface Temperature: </span>5,778 K</li>
+            </ul>
+            </p>
+            <div class="slide-header">Sun</div>
+          </div>
+          <div class="slide-img">
+            <embed src='https://solarsystem.nasa.gov/gltf_embed/2352' width='600rem' height='600rem' frameborder='0'
+              style="border-radius: 300rem;"></embed>
+          </div>
+          <div id="slide-link" onclick="openWebsite('solarsystem.nasa.gov/solar-system/sun/overview/')">
+            Explore more on <b>NASA</b>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="slide-number">01</div>
+          <div class="slide-detail">
+            <p>
+              Mercury is the smallest planet in our solar system, only slightly larger than Earth's Moon.
+              It is the closest planet to the Sun at a distance of about 36 million miles (58 million kilometers) or
+              0.39 AU.
+              Despite its proximity to the Sun, Mercury is not the hottest planet in our solar system - that title
+              belongs to nearby Venus, thanks to its dense atmosphere.
+            <ul>
+              <li><span style="opacity: 0.8">Known Moons: </span>None</li>
+              <li><span style="opacity: 0.8">Orbit Period: </span>87.97 Earth Days</li>
+              <li><span style="opacity: 0.8">Orbital Distance: </span>57.91 million km</li>
+            </ul>
+            </p>
+            <div class="slide-header">Mercury</div>
+          </div>
+          <div class="slide-img">
+            <iframe src='https://solarsystem.nasa.gov/gltf_embed/2369' width='600rem' height='600rem' frameborder='0'
+              style="border-radius: 300rem;"></iframe>
+          </div>
+          <div id="slide-link" onclick="openWebsite('solarsystem.nasa.gov/planets/mercury/overview/')">
+            Explore more on <b>NASA</b>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="slide-number">02</div>
+          <div class="slide-detail">
+            <p>
+              Venus is often called "Earth’s twin" because they’re similar in size and structure, but Venus has extreme
+              surface heat and a dense, toxic atmosphere.
+              It’s the hottest planet in our solar system, even though Mercury is closer to the Sun.
+              The surface is a rusty color and it’s peppered with intensely crunched mountains and thousands of large
+              volcanoes.
+            <ul>
+              <li><span style="opacity: 0.8">Known Moons: </span>None</li>
+              <li><span style="opacity: 0.8">Orbit Period: </span>224.70 Earth Days</li>
+              <li><span style="opacity: 0.8">Orbital Distance: </span>108.21 million km</li>
+            </ul>
+            </p>
+            <div class="slide-header">Venus</div>
+          </div>
+          <div class="slide-img">
+            <iframe src='https://solarsystem.nasa.gov/gltf_embed/2343' width='600rem' height='600rem' frameborder='0'
+              style="border-radius: 300rem;"></iframe>
+          </div>
+          <div id="slide-link" onclick="openWebsite('solarsystem.nasa.gov/planets/venus/overview/')">
+            Explore more on <b>NASA</b>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="slide-number">03</div>
+          <div class="slide-detail">
+            <p>
+              Earth is the fifth largest planet in the solar system. It is the only world in our solar system with
+              liquid water on the surface. Earth is a rocky planet with a solid and dynamic surface of mountains,
+              canyons, plains and more. Earth's atmosphere is 78 percent nitrogen, 21 percent oxygen and 1 percent other
+              ingredients - the perfect balance to breathe and live.
+            <ul>
+              <li><span style="opacity: 0.8">Known Moons: </span>1</li>
+              <li><span style="opacity: 0.8">Orbit Period: </span>365.26 Earth Days</li>
+              <li><span style="opacity: 0.8">Orbital Distance: </span>149.597871 million km</li>
+            </ul>
+            </p>
+            <div class="slide-header">Earth</div>
+          </div>
+          <div class="slide-img">
+            <iframe src='https://solarsystem.nasa.gov/gltf_embed/2393' width='600rem' height='600rem' frameborder='0'
+              style="border-radius: 300rem;"></iframe>
+          </div>
+          <div id="slide-link" onclick="openWebsite('solarsystem.nasa.gov/planets/earth/overview/')">
+            Explore more on <b>NASA</b>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="slide-number">04</div>
+          <div class="slide-detail">
+            <p>
+              Mars is the fourth planet from the Sun - a dusty, cold, desert world with a very thin atmosphere.
+              Mars is also a dynamic planet with seasons, polar ice caps, canyons, extinct volcanoes,
+              and evidence that it was even more active in the past. Mars is one of the most explored bodies in our
+              solar system, and it's the only planet where rovers roam the alien landscape.
+            <ul>
+              <li><span style="opacity: 0.8">Known Moons: </span>2</li>
+              <li><span style="opacity: 0.8">Orbit Period: </span>686.98 Earth days</li>
+              <li><span style="opacity: 0.8">Orbital Distance: </span>227.99 million km</li>
+            </ul>
+            </p>
+            <div class="slide-header">Mars</div>
+          </div>
+          <div class="slide-img">
+            <iframe src='https://solarsystem.nasa.gov/gltf_embed/2372' width='600rem' height='600rem' frameborder='0'
+              style="border-radius: 300rem;"></iframe>
+          </div>
+          <div id="slide-link" onclick="openWebsite('solarsystem.nasa.gov/planets/mars/overview/')">
+            Explore more on <b>NASA</b>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="slide-number">05</div>
+          <div class="slide-detail">
+            <p>
+              Jupiter is the largest planet of the Solar System - more than twice as massive as all the other planets
+              combined. It is the oldest planet of the
+              Solar System and the first to take shape out of the
+              remains of the solar nebula.
+              Jupiter's familiar stripes and swirls are actually cold, windy clouds of ammonia and water, floating in an
+              atmosphere of hydrogen and helium.
+
+            <ul>
+              <li><span style="opacity: 0.8">Known Moons: </span>67</li>
+              <li><span style="opacity: 0.8">Orbit Period: </span>4,332.82 Earth days</li>
+              <li><span style="opacity: 0.8">Orbital Distance: </span>227.99 million km</li>
+            </ul>
+            </p>
+            <div class="slide-header">Jupiter</div>
+          </div>
+          <div class="slide-img">
+            <iframe src='https://solarsystem.nasa.gov/gltf_embed/2375' width='600rem' height='600rem' frameborder='0'
+              style="border-radius: 300rem;"></iframe>
+          </div>
+          <div id="slide-link" onclick="openWebsite('solarsystem.nasa.gov/planets/jupiter/overview/')">
+            Explore more on <b>NASA</b>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="slide-number">06</div>
+          <div class="slide-detail">
+            <p>
+              Saturn is the second-largest
+              planet of the Solar System. Saturn is a massive ball made mostly of hydrogen and helium. Adorned with
+              thousands of beautiful ringlets, Saturn is unique among the planets. It is not the only planet to have
+              rings - made of chunks of ice and rock - but none are as spectacular or as complicated as Saturn's.
+            <ul>
+              <li><span style="opacity: 0.8">Known Moons: </span>62</li>
+              <li><span style="opacity: 0.8">Orbit Period: </span>10,755.70 Earth days</li>
+              <li><span style="opacity: 0.8">Orbital Distance: </span>1433.4 million km</li>
+            </ul>
+            </p>
+            <div class="slide-header">Saturn</div>
+          </div>
+          <div class="slide-img">
+            <iframe src='https://solarsystem.nasa.gov/gltf_embed/2355' width='600rem' height='600rem' frameborder='0'
+              style="border-radius: 300rem;"></iframe>
+          </div>
+          <div id="slide-link" onclick="openWebsite('solarsystem.nasa.gov/planets/saturn/overview/')">
+            Explore more on <b>NASA</b>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="slide-number">07</div>
+          <div class="slide-detail">
+            <p>
+              Uranus is known as the "sideways planet" because it rotates on its side.
+              The first planet found with the aid of a telescope, Uranus was discovered in 1781 by astronomer William
+              Herschel.
+              Uranus is an ice giant. Most of its mass is a hot, dense fluid of "icy" materials - water, methane and
+              ammonia - above a small rocky core.
+            <ul>
+              <li><span style="opacity: 0.8">Known Moons: </span>27</li>
+              <li><span style="opacity: 0.8">Orbit Period: </span>30,687.15 Earth days</li>
+              <li><span style="opacity: 0.8">Orbital Distance: </span>2876.8 million km</li>
+            </ul>
+            </p>
+            <div class="slide-header">Uranus</div>
+          </div>
+          <div class="slide-img">
+            <iframe src='https://solarsystem.nasa.gov/gltf_embed/2344' width='600rem' height='600rem' frameborder='0'
+              style="border-radius: 300rem;"></iframe>
+          </div>
+          <div id="slide-link" onclick="openWebsite('solarsystem.nasa.gov/planets/uranus/overview/')">
+            Explore more on <b>NASA</b>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="slide-number">08</div>
+          <div class="slide-detail">
+            <p>
+              Neptune is the fourth largest and the farthest planet of the
+              Solar System with the most powerful wind speeds out of all the
+              planets. It is the smallest of the gas giants. NASA's Voyager 2 is the only spacecraft to have visited
+              Neptune up close. Neptune's atmosphere is made up mostly of molecular hydrogen, atomic helium and methane.
+            <ul>
+              <li><span style="opacity: 0.8">Known Moons: </span>14</li>
+              <li><span style="opacity: 0.8">Orbit Period: </span>60,190.03 Earth days</li>
+              <li><span style="opacity: 0.8">Orbital Distance: </span>4502.9 million km</li>
+            </ul>
+            </p>
+            <div class="slide-header">Neptune</div>
+          </div>
+          <div class="slide-img">
+            <iframe src='https://solarsystem.nasa.gov/gltf_embed/2364' width='600rem' height='600rem' frameborder='0'
+              style="border-radius: 300rem;"></iframe>
+          </div>
+          <div id="slide-link" onclick="openWebsite('solarsystem.nasa.gov/planets/neptune/overview/')">
+            Explore more on <b>NASA</b>
+          </div>
+        </div>
+        
+      </div>
+      <span id="credits">3D Model Credits: NASA</span>
+    </div>
+    <div class="planet-links"></div>
+
+
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="index.js" type="text/javascript"></script>
+</body>
+
+</html>
