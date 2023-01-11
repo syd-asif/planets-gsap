@@ -6,4 +6,10 @@ Explore Solar System.
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/solarsystem)
 
-**Currently, only desktops are supported**
+----------------------------------------
+TODO:
+
+<ol>
+  <li> Make the website responsive </li>
+  <li> Add more intro images </li>
+</ol>
