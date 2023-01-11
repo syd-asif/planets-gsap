@@ -1,9 +1,7 @@
-# planets-gsap
+# Solar System
 
+Explore Solar System.
 
-TODO:
+[View Website](https://planets-gsap.vercel.app/)
 
-1. Make the website responsive
-2. Reduce loading time
-3. Add more intro images
-4. Refine animations
+[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/solarsystem)
